@@ -4,97 +4,127 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
   <title>Air-asia - Главная страница</title>
 </head>
 <body>
   <div class="wrapper">
     <!-- Фоновый рисунок -->
-    <div class="background">
+    <!-- <div class="background">
       <img src="./img/hero.jpg" alt="background-up" class="background__up">
       <img src="./img/bottom-pic.jpg" alt="background-down" class="background__down">  
-    </div>
+    </div> -->
     <!-- Шапка -->
-    <header class="header">
-      <a href="/" class="logo">
-        <img src="./img/logo.png" alt="logo Air-asia" class="logo__pic">
-      </a>
-      <nav class="menu">
-        <ul class="menu__list">
-          <li class="menu__item">
-            <a href="#" class="menu__tittle">Главная</a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu__tittle">Услуги</a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu__tittle">Отзывы</a>
-          </li>
-        </ul>
-      </nav> 
-      <address class="contacts">
-        <a href="tel:+88007003030" class="contacts__phone">8 800 70 30 30</a>
-        <div class="contacts__schedule">График работы</div>
-      </address> 
-    </header>
+    <div class="container">
+      <header class="header">
+        <a href="/" class="logo">
+          <img src="./img/logo.png" alt="logo Air-asia" class="logo__pic">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item"> <a href="#" class="menu__link">Главная</a> </li>
+            <li class="menu__item"> <a href="#" class="menu__link">Услуги</a> </li>
+            <li class="menu__item"> <a href="#" class="menu__link">Отзывы</a> </li>
+          </ul>
+        </nav> 
+        <address class="contacts">
+          <a href="tel:+88007003030" class="contacts__phone">8 800 70 30 30</a>
+          <div class="contacts__schedule">График работы</div>
+        </address> 
+      </header>
+    </div>
     <main class="main-content">
       <!-- Текст  -->
-      <div class="text">
-        <h1 class="text__tittle">Авторские туры по Азии</h1>
-        <div class="text__info">Открой для себя Азию</div>
-        <button class="text__button">ПОДРОБНЕЕ</button>
+      <div class="container">
+        <section class="text">
+          <h1 class="text__tittle">Авторские туры по Азии</h1>
+          <div class="text__subtittle">Открой для себя Азию</div>
+          <a href="#" class="btn">ПОДРОБНЕЕ</a>
+        </section>
       </div>
       <!-- Горячие туры  -->
-      <div class="hot-tours">
-        <div class="iconed-tittle">
-          <h2 class="iconed-tittle__text">Горящие туры</h2>
-          <img src="./img/flame.png" alt="img flame" class="iconed-tittle__icon">
-        </div>
-        <ul class="hot-tours__list">
-          <li class="hot-tours__item">
-            <img src="./img/river.jpg" alt="img tour" class="hot-tours__image">
-            <h3 class="hot-tours__tittle">Таиланд</h3>
-            <div class="hot-tours__info">
-              <img src="./img/calendar.png" alt="img calendar" class="hot-tours__calendar">
-              <div class="hot-tour-info__dates">7-12 ночей</div>
-              <img src="./img//meal.png" alt="img meal" class="hot-tours__meal">
-              <div class="hot-tours__dates">Завтраки</div> 
-            </div>
-            <div class="hot-tours__description">
-              Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
-            </div>
-            <button class="hot-tours__button">СМОТРЕТЬ</button>
-          </li>
-          <li class="hot-tours__item">
-            <img src="./img/pool.jpg" alt="img tour" class="hot-tours__image">
-            <h3 class="hot-tours__tittle">Бали</h3>
-            <div class="hot-tours__info">
-              <img src="./img/calendar.png" alt="img calendar" class="hot-tours__calendar">
-              <div class="hot-tours__dates">7-12 ночей</div>
-              <img src="./img/meal.png" alt="img meal" class="hot-tours__meal">
-              <div class="hot-tours__dates">Завтраки</div> 
-            </div>
-            <div class="hot-tours__description">
-              Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
-            </div>
-            <button class="hot-tours__button">СМОТРЕТЬ</button>
-          </li>
-          <li class="hot-tours__item">
-            <img src="./img/ocean.jpg" alt="img tour" class="hot-tours__image">
-            <h3 class="hot-tours__tittle">Индонезия</h3>
-            <div class="hot-tours__info">
-              <img src="./img/calendar.png" alt="img calendar" class="hot-tours__calendar">
-              <div class="hot-tours__dates">7-12 ночей</div>
-              <img src="./img/meal.png" alt="img meal" class="hot-tours__meal">
-              <div class="hot-tours__dates">Завтраки</div> 
-            </div>
-            <div class="hot-tours__description">
-              Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
-            </div>
-            <button class="hot-tours__button">СМОТРЕТЬ</button>
-          </li>
-        </ul>
+      <div class="container">
+        <section class="hot-tours">
+          <h2 class="hot-tours__main-tittle">Горящие туры</h2>
+            <!-- <img src="./img/flame.png" alt="img flame" class="iconed-tittle__icon"> -->
+          <ul class="hot-tours__list">
+            <li class="hot-tours__item">
+              <div class="hot-tour">
+                <div class="hot-tour__head"><img src="./img/river.jpg" alt="img tour" class="hot-tour__image"></div>
+                <div class="hot-tour__content">
+                  <h3 class="hot-tour__tittle">Таиланд</h3>
+                  <div class="hot-tour__info">
+                    <div class="hot-tour__item">
+                      <img src="./img/calendar.png" alt="img calendar" class="hot-tour__calendar">
+                      <!-- <div class="hot-tour__calendar"></div> -->
+                      <div class="hot-tour__dates">7-12 ночей</div>
+                    </div>
+                    <div class="hot-tour__item">
+                      <img src="./img//meal.png" alt="img meal" class="hot-tour__meal">
+                      <!-- <div class="hot-tour__meal"></div> -->
+                      <div class="hot-tour__food">Завтраки</div> 
+                    </div>
+                  </div>
+                  <div class="hot-tour__description">
+                    Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
+                  </div>
+                  <!-- <button class="hot-tour__button">СМОТРЕТЬ</button> -->
+                  <a href="#" class="btn btn--color--light">СМОТРЕТЬ</a>
+                </div>
+              </div>
+            </li>
+            <li class="hot-tours__item">
+              <div class="hot-tour">
+                <div class="hot-tour__head"><img src="./img/pool.jpg" alt="img tour" class="hot-tour__image"></div>
+                <div class="hot-tour__content">
+                  <h3 class="hot-tour__tittle">Бали</h3>
+                  <div class="hot-tour__info">
+                    <div class="hot-tour__item">
+                      <img src="./img/calendar.png" alt="img calendar" class="hot-tour__calendar">
+                      <!-- <div class="hot-tour__calendar"></div> -->
+                      <div class="hot-tour__dates">7-12 ночей</div>
+                    </div>
+                    <div class="hot-tour__item">
+                      <img src="./img//meal.png" alt="img meal" class="hot-tour__meal">
+                      <!-- <div class="hot-tour__meal"></div> -->
+                      <div class="hot-tour__food">Завтраки</div> 
+                    </div>
+                  </div>
+                  <div class="hot-tour__description">
+                    Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
+                  </div>
+                  <a href="#" class="btn">СМОТРЕТЬ</a>
+                </div>
+              </div>
+            </li>
+            <li class="hot-tours__item">
+              <div class="hot-tour">
+                <div class="hot-tour__head"><img src="./img/ocean.jpg" alt="img tour" class="hot-tour__image"></div>
+                <div class="hot-tour__content">
+                  <h3 class="hot-tour__tittle">Индонезия</h3>
+                  <div class="hot-tour__info">
+                    <div class="hot-tour__item">
+                      <img src="./img/calendar.png" alt="img calendar" class="hot-tour__calendar">
+                      <!-- <div class="hot-tour__calendar"></div> -->
+                      <div class="hot-tour__dates">7-12 ночей</div>
+                    </div>
+                    <div class="hot-tour__item">
+                      <img src="./img//meal.png" alt="img meal" class="hot-tour__meal">
+                      <!-- <div class="hot-tour__meal"></div> -->
+                      <div class="hot-tour__food">Завтраки</div> 
+                    </div>
+                  </div>
+                  <div class="hot-tour__description">
+                    Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
+                  </div>
+                  <a href="#" class="btn btn--color--light">СМОТРЕТЬ</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
       </div>
-      <div class="news">
+      <section class="news">
         <h2 class="news__tittle">Новости и акции</h2>
         <ul class="news__list">
           <li class="news__item">
@@ -104,7 +134,7 @@
             <div class="news__description">Проведи новый год в Тайланде</div>
           </li>
           <li class="news__item">
-            <img src="./img/surfer.jpg" alt="img news" class="news__-pic">
+            <img src="./img/surfer.jpg" alt="img news" class="news__pic">
             <div class="news__date">Декабрь 2019</div>
             <div class="news__tittle"><b>Акция для серфенгистов!</b></div>
             <div class="news__description">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного пути!</div>
@@ -122,15 +152,15 @@
             <li class="paginator__item">7</li>
           </ul>
         </div>
-      </div>
+      </section>
       <!-- О нас -->
-      <div class="about">
+      <section class="about">
         <img src="./img/gates.jpg" alt="" class="about__pic1">
         <img src="./img/mountains.jpg" alt="" class="about__pic2">
         <div class="about__tittle"><b>О нас</b></div>
         <div class="about__info">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.</div>
         <button class="about__button">ПОДРОБНЕЕ</button>
-      </div>
+      </section>
     </main>
     <!-- Подвал -->
     <footer class="footer">
