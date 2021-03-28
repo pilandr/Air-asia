@@ -49,7 +49,7 @@ p {
 .header {
   height: 123.36px;
   position: relative;
-  margin-bottom: 46px;
+  margin-bottom: 71px;
 }
 
 .logo {
@@ -63,13 +63,17 @@ p {
   display: block;
   position: absolute;
   top: 38px;
-  left: 179px;
+  left: 163px;
 }
 
 .menu__item {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 54px;
+  margin-right: 51px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
 }
 
 .menu__link {
@@ -82,7 +86,7 @@ p {
 
 .contacts {
   position: absolute;
-  top: 26.64px;
+  top: 30px;
   right: 0;
   font-style: normal;
   text-align: right;
@@ -91,12 +95,14 @@ p {
 .contacts__phone {
   text-decoration: none;
   font-size: 26px;
-  margin-bottom: 2px;
+  line-height: 1;
+  /* margin-bottom: 2px; */
 }
 
 .contacts__desc {
   font-size: 11px;
   color: #9A9A9A;
+  line-height: 2;
 }
 
 .contacts__schedule {
@@ -106,19 +112,19 @@ p {
 
 .text {
   width: 511px;
-  margin-bottom: 245px;
+  margin-bottom: 242px;
 }
 
 .text__tittle {
   font-size: 72px;
   font-weight: 700;
   line-height: 1.36;
-  margin-bottom: 27.5px;
+  margin-bottom: 31px;
 }
 
 .text__subtittle {
   font-size: 18px;
-  margin-bottom: 33.5px;
+  margin-bottom: 32px;
   line-height: 1.1;
 }
 
@@ -152,8 +158,12 @@ p {
   color: #fff;
 }
 
+.btn--size--small {
+  padding: 18px 30px;
+}
+
 .hot-tours {
-  margin-bottom: 125px;
+  margin-bottom: 118px;
 }
 
 .hot-tours__main-tittle {
@@ -203,7 +213,7 @@ p {
 }
 
 .hot-tour__content {
-  padding: 33px 22px;
+  padding: 29px 22px;
 }
 
 .hot-tour__tittle {
@@ -222,7 +232,8 @@ p {
 .hot-tour__item {
   display: inline-block;
   vertical-align: top;
-  margin-right: 28px;
+  margin-right: 15px;
+  padding-left: 6px;
 }
 
 .hot-tour__item:last-child {
@@ -231,7 +242,7 @@ p {
 
 .hot-tour__calendar, .hot-tour__meal {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 7px;
   vertical-align: top;
 }
 
@@ -243,15 +254,15 @@ p {
 .hot-tour__description {
   color: #303030;
   font-size: 14px;
-  margin-bottom: 24px;
+  margin-bottom: 29px;
 }
 
 .news {
-  margin-bottom: 150px;
+  margin-bottom: 146px;
 }
 
 .news__list {
-  margin-bottom: 57px;
+  margin-bottom: 53px;
 }
 
 .news__main-tittle {
@@ -264,7 +275,7 @@ p {
   display: inline-block;
   width: 557px;
   vertical-align: top;
-  margin-right: 23px;
+  margin-right: 19px;
   position: relative;
   border-radius: 5px;
   overflow: hidden;
@@ -287,18 +298,19 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 25px 30px;
-  min-height: 170px;
+  bottom: 4px;
+  padding: 17px 30px;
+  min-height: 153px;
 }
 
 .news__date {
-  margin-bottom: 12px;
+  margin-bottom: 15px;
 }
 
 .news__tittle {
   font-weight: bold;
   font-size: 24px;
-  margin-bottom: 3px;
+  margin-bottom: 6px;
 }
 
 .news__description {
@@ -316,7 +328,8 @@ p {
 
 .paginator__display {
   font-size: 16px;
-  margin-right: 36px;
+  margin-left: 19px;
+  margin-right: 21px;
 }
 
 .paginator__item {
@@ -351,7 +364,7 @@ p {
 }
 
 .about {
-  margin-bottom: 50px;
+  margin-bottom: 23px;
 }
 
 .about:before {
@@ -380,13 +393,14 @@ p {
   font-size: 36px;
   font-weight: bold;
   color: #000000;
-  margin-bottom: 35px;
+  margin-bottom: 41px;
 }
 
 .about__desc-text {
-  margin-bottom: 60px;
+  margin-bottom: 71px;
   font-size: 16px;
   color: #060606;
+  line-height: 1.6;
 }
 
 .about__desc-text p {
@@ -406,10 +420,18 @@ p {
   position: relative;
 }
 
-.socials {
+.footer .logo {
+  top: 46px;
+}
+
+.footer .menu {
+  top: 60px;
+}
+
+.footer .socials {
   position: absolute;
-  top: 35px;
-  right: 262px;
+  top: 51px;
+  right: 255px;
 }
 
 .socials__item {
@@ -460,3 +482,7 @@ p {
   width: 36px;
   height: 36px;
 } 
+
+.footer .contacts {
+  top: 45px;
+}
