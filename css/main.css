@@ -110,6 +110,10 @@ p {
   text-decoration: underline;
 }
 
+.contacts__schedule:hover {
+  line-height: 20px;
+}
+
 .text {
   width: 511px;
   margin-bottom: 242px;
