@@ -8,7 +8,7 @@
   <title>Air-asia - Главная страница</title>
 </head>
 <body>
-  <div class="wrapper">
+  <div class="wrapper main-page-wrapper">
     <!-- Фоновый рисунок -->
     <!-- <div class="background">
       <img src="./img/hero.jpg" alt="background-up" class="background__up">
@@ -124,92 +124,97 @@
           </ul>
         </section>
       </div>
-      <section class="news">
-        <h2 class="news__tittle">Новости и акции</h2>
-        <ul class="news__list">
-          <li class="news__item">
-            <img src="./img/plain.jpg" alt="img news" class="news__pic">
-            <div class="news__date">Декабрь 2019</div>
-            <div class="news__tittle"><b>Дешевые путевки на Новый Год!</b></div>
-            <div class="news__description">Проведи новый год в Тайланде</div>
-          </li>
-          <li class="news__item">
-            <img src="./img/surfer.jpg" alt="img news" class="news__pic">
-            <div class="news__date">Декабрь 2019</div>
-            <div class="news__tittle"><b>Акция для серфенгистов!</b></div>
-            <div class="news__description">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного пути!</div>
-          </li>
-        </ul>
-        <div class="paginator">
-          <div class="paginator__display">Страница 1 из 7</div>
-          <ul class="paginator__list">
-            <li class="paginator__item">1</li>
-            <li class="paginator__item">2</li>
-            <li class="paginator__item">3</li>
-            <li class="paginator__item">4</li>
-            <li class="paginator__item">5</li>
-            <li class="paginator__item">6</li>
-            <li class="paginator__item">7</li>
+
+      <div class="container">
+        <section class="news">
+          <h2 class="news__main-tittle">Новости и акции</h2>
+          <ul class="news__list">
+            <li class="news__item">
+              <img src="./img/plain.jpg" alt="img news" class="news__pic">
+              <div class="news__content">
+                <div class="news__date">Декабрь 2019</div>
+                <div class="news__tittle">Дешевые путевки на Новый Год!</div>
+                <div class="news__description">Проведи новый год в Тайланде</div>
+              </div>
+            </li>
+            <li class="news__item">
+              <img src="./img/surfer.jpg" alt="img news" class="news__pic">
+              <div class="news__content">
+                <div class="news__date">Декабрь 2019</div>
+                <div class="news__tittle">Акция для серфенгистов!</div>
+                <div class="news__description">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного пути!</div>
+              </div>
+            </li>
           </ul>
-        </div>
-      </section>
+          <div class="paginator">
+            <div class="paginator__display">Страница 1 из 7</div>
+            <ul class="paginator__list">
+              
+              <li class="paginator__item paginator__item--active"><a href="" class="paginator__link">1</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">2</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">3</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">4</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">5</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">6</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">7</a></li>
+            </ul>
+          </div>
+        </section>
+      </div>
       <!-- О нас -->
-      <section class="about">
-        <img src="./img/gates.jpg" alt="" class="about__pic1">
-        <img src="./img/mountains.jpg" alt="" class="about__pic2">
-        <div class="about__tittle"><b>О нас</b></div>
-        <div class="about__info">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.</div>
-        <button class="about__button">ПОДРОБНЕЕ</button>
-      </section>
+      <div class="container">
+        <section class="about">
+          <!-- <img src="./img/gates.jpg" alt="" class="about__pic1">
+          <img src="./img/mountains.jpg" alt="" class="about__pic2">
+          <div class="about__tittle"><b>О нас</b></div>
+          <div class="about__info">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.</div>
+          <button class="about__button">ПОДРОБНЕЕ</button> -->
+          <div class="about__desc">
+            <h2 class="about__tittle">О нас</h2> 
+            <div class="about__desc-text">
+              <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.</p>
+            </div>
+            <a href="#" class="btn">ПОДРОБНЕЕ</a>
+          </div>
+        </section>
+      </div>
     </main>
     <!-- Подвал -->
-    <footer class="footer">
-      <hr class="footer__line">
-      <a href="/" class="logo">
-        <img src="./img/logo.png" alt="" class="logo__pic">
-      </a>
-      <nav class="menu">
-        <ul class="menu__list">
-          <li class="menu__item">
-            <a href="#" class="menu__tittle">Главная</a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu__tittle">Услуги</a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu__tittle">Отзывы</a>
-          </li>
-        </ul>
-      </nav> 
-      <div class="social-networks">
-        <ul class="social-networks__list">
-          <li class="social-networks__item">
-            <a href="#" class="social-networks__telegram">
-              <img src="./img/t.png" alt="img telegram" class="social-telegtam__pic">
-            </a>
-          </li>
-          <li class="social-networks__item">
-            <a href="#" class="ssocial-networks__vk">
-              <img src="./img/vk.png" alt="img vk" class="social-vk__pic">
-            </a>
-          </li>
-          <li class="social-networks__item">
-            <a href="#" class="social-networks__facebook">
-              <img src="./img/f.png" alt="img facebook" class="social-facebook__pic">
-            </a>
-          </li>
-          <li class="social-networks__item">
-            <a href="#" class="social-networks__in">
-              <img src="./img/in.png" alt="img instagram" class="social-in__pic">
-            </a>
-          </li>
-        </ul>
+    <div class="container">
+      <div class="footer-container">
+        <footer class="footer">
+          <a href="/" class="logo">
+            <img src="./img/logo.png" alt="logo Air-asia" class="logo__pic">
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item"> <a href="#" class="menu__link">Главная</a> </li>
+              <li class="menu__item"> <a href="#" class="menu__link">Услуги</a> </li>
+              <li class="menu__item"> <a href="#" class="menu__link">Отзывы</a> </li>
+            </ul>
+          </nav>
+          <ul class="socials">
+            <li class="socials__item socials__item--icon--telegram">
+              <a href="#" class="socials__link"></a>
+            </li>
+            <li class="socials__item socials__item--icon--vk">
+              <a href="#" class="socials__link"></a>
+            </li>
+            <li class="socials__item socials__item--icon--fb">
+              <a href="#" class="socials__link"></a>
+            </li>
+            <li class="socials__item socials__item--icon--in">
+              <a href="#" class="socials__link"></a>
+            </li>
+          </ul>
+          
+          <address class="contacts">
+            <div class="contacts__desc">Бесплатный звонок по России</div>
+            <a href="tel:+88007003030" class="contacts__phone">8 800 70 30 30</a>
+          </address> 
+        </footer>
       </div>
-      <address class="contacts-footer">
-        <div class="contacts-footer__schedule">Бесплатный звонок по России</div>
-        <a href="tel:+88007003030" class="contacts-footer__phone">8 800 70 30 30</a>
-      </address>
-    </footer>
+    </div>
 
   </div>    
 </body>

@@ -29,8 +29,16 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+p {
+  margin-top: 0;
+}
+
 * {
   box-sizing: border-box;
+}
+
+.main-page-wrapper {
+  background: url('../img/hero.jpg') center top no-repeat, url('../img/bottom-pic.jpg') center bottom 160px no-repeat;
 }
 
 .container {
@@ -84,6 +92,11 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   font-size: 26px;
   margin-bottom: 2px;
+}
+
+.contacts__desc {
+  font-size: 11px;
+  color: #9A9A9A;
 }
 
 .contacts__schedule {
@@ -233,8 +246,217 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 24px;
 }
 
+.news {
+  margin-bottom: 150px;
+}
+
+.news__list {
+  margin-bottom: 57px;
+}
+
+.news__main-tittle {
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.news__item {
+  display: inline-block;
+  width: 557px;
+  vertical-align: top;
+  margin-right: 23px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.news__item:last-child {
+  margin-right: 0;
+}
+
+.news__pic
+{
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.news__content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 25px 30px;
+  min-height: 170px;
+}
+
+.news__date {
+  margin-bottom: 12px;
+}
+
+.news__tittle {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 3px;
+}
+
+.news__description {
+  font-size: 16px;
+}
+
+.paginator {
+  text-align: center;
+}
+
+.paginator__display, .paginator__list {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.paginator__display {
+  font-size: 16px;
+  margin-right: 36px;
+}
+
+.paginator__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.paginator__item--active .paginator__link {
+  color: #F5170E;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #FFFFFF;
+}
+
+.paginator__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: relative;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.paginator__link:hover {
+  color: #F5170E;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #FFFFFF;
+}
+
+.about {
+  margin-bottom: 50px;
+}
+
+.about:before {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  width: 490px;
+  height: 505px;
+  background: url('../img/gates.jpg') center center / cover no-repeat;
+  border-radius: 5px;
+}
+
+.about__desc {
+  display: inline-block;
+  vertical-align: top;
+  background: url('../img/mountains.jpg') center center / cover no-repeat;
+  width: 785px;
+  height: 455px;
+  padding: 70px 202px 70px 80px;
+  margin-left: -140px;
+  margin-top: 95px;
+  border-radius: 5px;
+}
+
+.about__tittle {
+  font-size: 36px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 35px;
+}
+
+.about__desc-text {
+  margin-bottom: 60px;
+  font-size: 16px;
+  color: #060606;
+}
+
+.about__desc-text p {
+ margin-bottom: 20px;
+}
+
+.about__desc-text p:last-child {
+  margin-bottom: 0;
+}
+
+.footer-container {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
 
 .footer {
-  height: 123.36px;
+  height: 146px;
   position: relative;
 }
+
+.socials {
+  position: absolute;
+  top: 35px;
+  right: 262px;
+}
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.socials__item--icon--telegram .socials__link {
+  background-image: url('../img/t.png');
+}
+
+.socials__item--icon--telegram .socials__link:hover {
+  background-image: url('../img/t-hover.png');
+}
+
+.socials__item--icon--vk .socials__link {
+  background-image: url('../img/vk.png');
+}
+
+.socials__item--icon--vk .socials__link:hover {
+  background-image: url('../img/vk-hover.png');
+}
+
+.socials__item--icon--fb .socials__link {
+  background-image: url('../img/fb.png');
+}
+
+.socials__item--icon--fb .socials__link:hover {
+  background-image: url('../img/fb-hover.png');
+}
+
+.socials__item--icon--in .socials__link {
+  background-image: url('../img/in.png');
+}
+
+.socials__item--icon--in .socials__link:hover {
+  background-image: url('../img/in-hover.png');
+}
+
+.socials__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+} 
