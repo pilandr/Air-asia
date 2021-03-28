@@ -279,6 +279,7 @@ p {
   position: relative;
   border-radius: 5px;
   overflow: hidden;
+  height: 394px;
 }
 
 .news__item:last-child {
