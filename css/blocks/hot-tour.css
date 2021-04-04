@@ -1,0 +1,78 @@
+.hot-tour {
+  min-height: 450px;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-items:flex-start;
+  /* width: 362px; */
+}
+
+.hot-tour__header {
+  min-height: 144px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.hot-tour__image {
+  width: 100%;
+}
+
+.hot-tour__content {
+  padding: 29px 21px 26px 21px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
+
+.hot-tour__content .btn  {
+  margin-top: auto;
+}
+
+
+.hot-tour__tittle {
+  color: #000000;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.hot-tour__info {
+  color: #666666;
+  font-size: 16px;
+  margin-bottom: 23px;
+  display: flex;
+  justify-content: flex-start;
+   padding: 0px 6px;
+}
+
+.hot-tour__item {
+  display: flex;
+  justify-content: flex-start;
+  /* flex-wrap: 0 0 auto; */
+  /* display: inline-block; */
+  /* vertical-align: top; */
+  margin-right: 33px; 
+  /*padding: 0 6px; */
+  /* overflow: hidden; */
+  /* padding-left: 6px; */
+}
+
+.hot-tour__item:last-child {
+  margin-right: 0;
+}
+
+.hot-tour__calendar, .hot-tour__meal {
+  margin-right: 7px;
+}
+
+.hot-tour__food, .hot-tour__dates {
+}
+
+.hot-tour__description {
+  color: #303030;
+  font-size: 14px;
+  margin-bottom: 31px;
+}

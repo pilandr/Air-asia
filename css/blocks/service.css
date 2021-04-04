@@ -1,0 +1,30 @@
+.service {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.service__image {
+  flex: 0 0 auto;
+  width: 41%;
+  margin-right: 4%;
+}
+
+.service__content {
+  flex: 1;
+  width: 652px;
+  padding: 14px 0px;
+}
+
+.service__title {
+  font-size: 36px;
+  font-weight: bold;
+  color: 0;
+  margin-bottom: 28px;
+}
+
+.service__text {
+  line-height: 1.69;
+  font-size: 16px;
+  margin-bottom: 34px;
+}

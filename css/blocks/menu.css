@@ -1,0 +1,32 @@
+.menu {
+  display: block;
+  flex: 0 0 auto;
+  align-self: center;
+  padding-top: 5px;
+  /* position: absolute;
+  top: 38px;
+  left: 163px; */
+}
+
+.menu__list {
+  display: flex;
+}
+
+.menu__item {
+  flex: 0 0 auto;
+  /* display: inline-block; */
+  /* vertical-align: middle; */
+  margin-right: 54px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__link {
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  color: #DA0100;
+}

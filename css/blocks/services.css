@@ -1,0 +1,18 @@
+.services {
+  padding: 98px 380px 0;
+  background-color: #fff;
+  color: #303030;
+  margin-bottom: 90px;
+  }
+  
+  .services__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 17px;
+  }
+  
+  .services__item {
+    flex: 0 0 auto;
+    margin-bottom: 49px;
+  }

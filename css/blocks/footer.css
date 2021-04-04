@@ -1,0 +1,42 @@
+.footer-container {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: auto;
+}
+
+.footer {
+  height: 133px;
+  background-color: #001821;
+}
+
+.footer__wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__services .logo{
+  margin-right: 65px;
+}
+
+.footer__services .menu{
+  margin-top: 5px;
+}
+
+.footer__col {
+  align-items: center;
+  display: flex;
+}
+
+.footer__col--align-right {
+  justify-content: flex-end;
+}
+
+.footer .socials {
+  display: flex;
+  margin-right: 74px;
+}
+
+.footer .contacts {
+  top: 45px;
+}

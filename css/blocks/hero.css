@@ -1,0 +1,32 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  background: #001821 url('../../img/headline_1.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 412px;
+  /* min-width: 1920px;   left -10px top +2px no-repeat*/
+  padding-bottom: 21px;
+}
+
+.hero__container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero__header {
+  padding-top: 26px;
+}
+
+.hero__header .logo{
+  margin-right: 65px
+}
+
+.hero__title {
+  font-weight: bold;
+  font-size: 72px;
+  /* margin-bottom: 15px; */
+  padding-bottom: 15px;
+}
