@@ -1,8 +1,8 @@
 .services {
-  padding: 98px 380px 0;
+  padding: 98px 0;
   background-color: #fff;
   color: #303030;
-  margin-bottom: 90px;
+  margin: 0 auto 90px auto;
   }
   
   .services__list {
