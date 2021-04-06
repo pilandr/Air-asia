@@ -6,6 +6,7 @@
 .footer {
   height: 133px;
   background-color: #001821;
+  margin-top: auto;
 }
 
 .footer__wrap {

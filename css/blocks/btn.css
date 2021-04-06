@@ -1,4 +1,7 @@
 .btn {
+  width: 168px;
+  height: 55px;
+  text-align: center;
   display: inline-block;
   background: #F5170E;
   border-radius: 35px;
@@ -29,5 +32,6 @@
 }
 
 .btn--size--small {
+  width: 135px;
   padding: 18px 30px;
 }
