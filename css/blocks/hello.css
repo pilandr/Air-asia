@@ -41,7 +41,6 @@
   align-items: center;
   background: url('../../img/hello-shades.png') center center no-repeat;
   opacity: 0; 
-  /* transition: 1s;  */
   animation: show .4s 1; 
   animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
   animation-delay: 1s;

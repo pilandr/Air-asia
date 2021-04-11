@@ -1,0 +1,30 @@
+.separator {
+  background: url('../../img/separator-bg.jpg') center center no-repeat;
+  min-height: 363px;
+  
+}
+
+.separator .container{
+  min-height: inherit;
+}
+
+.separator__inner {
+  background: url('../../img/separator-bg-image.png') bottom right 36px no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: inherit;
+  /* align-items: center; */
+}
+
+.separator__content {
+  max-width: 50%;
+  /* min-height: 363px; */
+}
+
+.separator__title {
+  line-height: 1.35;
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+}

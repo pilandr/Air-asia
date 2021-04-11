@@ -1,0 +1,12 @@
+.review-send {
+  background: #F4F5F5;
+  padding-top: 60px;
+  padding-bottom: 97px;
+}
+
+.review-send__title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #1A1B1E;
+  margin-bottom: 55px;
+}

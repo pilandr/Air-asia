@@ -45,6 +45,12 @@ img {
   max-width: 100%;
 }
 
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -63,6 +69,9 @@ img {
   width: 1141px;
 }
 
+.page-content-reviews {
+  margin-bottom: 85px;
+}
 /* .container__services {
   margin: 0 auto;
   width: 1146px;
