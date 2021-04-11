@@ -12,8 +12,8 @@
   text-transform: uppercase;
   text-decoration: none;
   line-height: 1.35;
-  /* border: 1px solid #F5170E; */
-  border: none;
+  border: 1px solid #F5170E;
+  /* border: none; */
 }
 
 .btn:hover {
@@ -37,6 +37,7 @@
 .btn--color--dark {
   background: #8E8E8E;
   color: #FFFFFF;
+  border: none;
 }
 
 .btn--color--dark:hover {
