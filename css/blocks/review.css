@@ -18,17 +18,25 @@
   align-items: center;
   font-size: 24px;
   font-weight: bold;
-  color: #2E77A4;
+  color: #1A1B1E;
   margin-bottom: 3px;
   padding-left: 20px;
   padding-top: 17px;
-
+  text-decoration: none;
 }
+
 
 .review__user::after {
   content: url('../../img/vk-blue.png');
   height: 38px;
   margin-left: 8px;
+}
+
+
+.review__user:hover {
+  color: #2E77A4;
+  text-decoration: underline;
+  transition: .8s;
 }
 
 .review__tags {
@@ -37,6 +45,15 @@
   flex-wrap: wrap;
   margin-bottom: 10px;
   padding-left: 21px;
+}
+
+.review__tag-item {
+  margin-bottom: 2px;
+  margin-right: 2px;
+}
+
+.review__tag-item:last-child {
+  margin-right: 0;
 }
 
 .review__title {
